@@ -1,5 +1,5 @@
 {% set name = "wagtail-rangefilter" %}
-{% set version = "0.2.0" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wagtail-rangefilter-{{ version }}.tar.gz
-  sha256: 15c38cca46bfb2c980a97a9a86da39b63aeffc7255f23b4d98acfd451b4499a8
+  sha256: 74fde188e13e44766f1e106c91be540ca1cdf032251f233d6b3e4ea7ecd57ace
 
 build:
   noarch: python
